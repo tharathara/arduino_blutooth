@@ -76,9 +76,9 @@ public class MainActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
             }
-//            Log.i("alphbet", mmBuffer[20] + "");
-//            Log.i("alphbet",  "");
-//            Log.i("123",  "ddhuihd");
+            Log.i("alphbet", mmBuffer[20] + "");
+            Log.i("alphbet",  "");
+            Log.i("123",  "ddhuihd");
         } catch (IOException e) {
             e.printStackTrace();
         }
