@@ -23,4 +23,12 @@ public class ExampleInstrumentedTest {
 
         assertEquals("com.example.bt2", appContext.getPackageName());
     }
+public class ExampleInstrumentedTest2 {
+    @Test
+    public void useAppContext() {
+        // Context of the app under test 2.
+        Context appContext = InstrumentationRegistry.getTargetContext();
+
+        assertEquals("com.example.bt2 test 2", appContext.getPackageName());
+    }
 }
